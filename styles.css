@@ -1,0 +1,170 @@
+h1{
+    color: hotpink;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+
+}
+.container{
+
+    display: flex;
+    flex-direction: row;
+    margin: 0% 10%;
+
+}
+.aside-container{
+    width: 30%;
+    height: 100vh;
+    background-color: #155e91;
+    color: white;
+}
+.section-container{
+    width: 70%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+@media only screen and (max-width: 850px){
+    .container{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+    .aside-container{
+        width: 100%;
+        height: 70vh;
+        
+    }
+    .section-container{
+        width: 100%;
+        height: 70vh;
+    }
+        
+}
+.img-holder{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    overflow: hidden;
+    border: 5px solid white;
+    
+}
+.img{
+    
+   height: 100%;
+}
+.side-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.heading{
+    font-size: 16px;
+   text-align: center;
+}
+.link{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.skill{
+    margin: 10px 10px;
+    border-top: 2px solid wheat;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul > li {
+    display: inline-block;
+    background-color: rgb(112, 186, 216);
+    margin: 3px;
+    padding: 4px;
+    border-radius: 4px;
+}
+.edu-container{
+    margin: 10px 10px;
+    border-top: 2px solid wheat;
+}
+.edu{
+    margin: 5px 0;
+}
+.edu > h6{
+   font-size: 16px;
+   margin: 2px 0;
+}
+.edu > p{
+    font-size: 10px;
+    margin: 0;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    margin: 5px 10px;
+
+}
+.header > h1{
+    font-size: 32px;
+    margin: 2px 0;
+    color: teal;
+    text-align: center;
+
+}
+.header > p{
+    font-size: 16px;
+    margin: 2px 0;
+    color: rgb(5, 26, 23);
+    font-weight: 600;
+}
+.projects{
+    margin: 10px 5px;
+    border-top: 2px solid wheat;
+
+}
+.pro-detail > h3{
+    font-size: 22px;
+    margin: 2px;
+
+}
+.pro-detail > p{
+    font-size: 16px;
+    margin: 2px;
+}
+.mail{
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
