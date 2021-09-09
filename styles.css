@@ -49,7 +49,8 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 10px;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     border: 5px solid white;
     
@@ -61,9 +62,8 @@ body{
 .side-container{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    
+    margin: 10% ;
+  
 }
 
 .heading{
@@ -95,17 +95,21 @@ ul > li {
 .edu-container{
     margin: 10px 10px;
     border-top: 2px solid wheat;
+    
+
 }
 .edu{
-    margin: 5px 0;
+    
+    margin: 10px,10px;
 }
 .edu > h6{
-   font-size: 16px;
-   margin: 2px 0;
+   font-size: 20px;
+   margin: 10px 10px;
 }
 .edu > p{
-    font-size: 10px;
-    margin: 0;
+    font-size: 17px;
+    padding-left: 15px;
+    
 }
 .sec{
     display: flex;
@@ -124,23 +128,30 @@ ul > li {
 }
 .header > p{
     font-size: 16px;
-    margin: 2px 0;
     color: rgb(5, 26, 23);
     font-weight: 600;
 }
 .projects{
-    margin: 10px 5px;
+    margin:0 15px;
     border-top: 2px solid wheat;
 
 }
 .pro-detail > h3{
-    font-size: 22px;
-    margin: 2px;
+    font-size: 15px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 
 }
+.pro-detail{
+    border: 1px solid rgb(37, 34, 34);
+    padding: 10px;
+    background-color: blanchedalmond;
+    
+}
 .pro-detail > p{
-    font-size: 16px;
-    margin: 2px;
+    font-size: 13px;
+    margin:20px 20px;
+    
 }
 .mail{
     padding-top: 15px;
@@ -168,3 +179,7 @@ ul > li {
 
 
 
+
+
+
+   
