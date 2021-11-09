@@ -36,12 +36,12 @@ body{
     }
     .aside-container{
         width: 100%;
-        height: 70vh;
+        height: auto;
         
     }
     .section-container{
         width: 100%;
-        height: 70vh;
+        height: auto;
     }
         
 }
@@ -75,6 +75,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-left: 25rem;
 
 }
 .skill{
@@ -82,10 +83,13 @@ body{
     border-top: 2px solid wheat;
 }
 ul{
+    padding: 1rem;;
+}
+ol{
     list-style: none;
     padding: 0;
 }
-ul > li {
+ol > li {
     display: inline-block;
     background-color: rgb(112, 186, 216);
     margin: 3px;
@@ -126,10 +130,31 @@ ul > li {
     text-align: center;
 
 }
+.bio{
+    padding: 1%;
+    text-align: center;
+    color: #155e91;
+}
 .header > p{
     font-size: 16px;
     color: rgb(5, 26, 23);
     font-weight: 600;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+
+}
+.image{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+.image-1{
+    height: 30px;
+    width: 35px;
+    padding: 5px;
 }
 .projects{
     margin:0 15px;
@@ -143,9 +168,9 @@ ul > li {
 
 }
 .pro-detail{
-    border: 1px solid rgb(37, 34, 34);
+    border: none;
     padding: 10px;
-    background-color: blanchedalmond;
+    background-color: rgb(166, 167, 233);
     
 }
 .pro-detail > p{
