@@ -1,6 +1,4 @@
-h1{
-    color: hotpink;
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -16,9 +14,16 @@ body{
 }
 .aside-container{
     width: 30%;
-    height: 100vh;
+    height: auto;
     background-color: #155e91;
     color: white;
+    
+}
+
+h4{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
 }
 .section-container{
     width: 70%;
@@ -106,11 +111,21 @@ ol > li {
     
     margin: 10px,10px;
 }
-.edu > h6{
+.edu > h6 {
+    text-align: center;
+}
+.edu > h6 {
    font-size: 20px;
    margin: 10px 10px;
 }
-.edu > p{
+.intern{
+text-align: left;
+font-weight: 100;
+}
+.intern >li{
+    padding: 2px;
+}
+.edu > p {
     font-size: 17px;
     padding-left: 15px;
     
@@ -170,7 +185,8 @@ ol > li {
 .pro-detail{
     border: none;
     padding: 10px;
-    background-color: rgb(166, 167, 233);
+    background-color: #dce9f3
+
     
 }
 .pro-detail > p{
